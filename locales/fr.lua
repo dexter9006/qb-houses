@@ -45,6 +45,7 @@ local Translations = {
         ["ring_doorbell"] = "Sonner à la porte"
     },
     menu = {
+        ['header'] = 'Ma Maison',
         ["house_options"] = "Options de Propriété",
         ["enter_house"] = "Entrer dans votre Propriété",
         ["give_house_key"] = "Donner les clés",
