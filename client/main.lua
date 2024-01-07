@@ -56,6 +56,12 @@ local function showEntranceHeaderMenu()
         }
     else
         if isOwned and HasHouseKey then
+            -- Vitto
+            headerMenu[#headerMenu+1] = {
+                header = Lang:t('menu.header'),
+                isMenuHeader = true, -- Set to true to make a nonclickable title
+            }
+            --
             headerMenu[#headerMenu + 1] = {
                 header = Lang:t('menu.enter_house'),
                 params = {
